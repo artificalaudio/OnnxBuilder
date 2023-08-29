@@ -21,7 +21,9 @@ set_target_properties(
 )
 
 
-
+# this was from a post from someone on discord showing how they had linked the static parts of the Onnx runtime build,
+# ideally a static build would be ideal, like : https://github.com/olilarkin/ort-builder 
+# but I have no been able to get that to compile yet
 
 # cmake -B Builds , makes a  folder called Builds in directory, and creates build files
 # then you can cd into Builds folder, and do make HelloOnnx
